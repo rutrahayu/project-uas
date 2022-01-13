@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+body{
+ 	height: 100vh;
+ 	background-image: url("bg.jpg");
+ 	background-size: 700px, 600px;
+}
+
+header{
+	max-width: : 100%;
+	height: 50px;
+	background-color: #333;
+	color: #fff;
+	line-height: 50px;
+	padding-left: 4%;
+}
+header ul li{
+	width: 10%;
+	height: 50px;
+	float: left;
+	list-style: none;
+
+}
+section{
+	width: 100%;
+	min-height: 600px;
+	background-color: #FF9966;
+}
+footer{
+	width: 100%;
+	height: 50px;
+	background-color: #FF6633;
+	color: #fff;
+	line-height: 50px;
+	text-align: center;
+	bottom: 0px;
+	position: absolute;
+}
+
+
+/*masuk*/
+.box-login{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	padding: 50px 25px;
+	width: 400px;
+    border-style: outset;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 10px;
+	border-color: white;
+}
+.box-login h3{
+	font-size: 38px;
+	text-align: left;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	
+}
+
+.box-login form input{
+	width: calc(100% - 20 px);
+	padding: 8px 75px;
+	margin-bottom: 15px;
+	font-size: 20px;
+	border: inset;
+	border-radius: 20px;
+	background-color: rgba(0,0,0,0.5);
+	border-color: white;
+	font-color:white;
+
+}
+.box-login form input[type="submit"]{
+	width: 30%;
+	padding: 5px 0;
+	background-color: #2979ff;
+	font-size: 18px;
+	color: #fafafa;
+}
